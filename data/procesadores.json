@@ -1,1 +1,82 @@
+{
+  "Ryzen 3 3100": {
+    "serie": "Ryzen 3",
+    "modelo": "3100",
+    "turbo": "3.9 GHz",
+    "cores": "4",
+    "threads": "8",
+    "numero": "3"
+  },
 
+  "Ryzen 5 5500GT": {
+    "serie": "Ryzen 5",
+    "modelo": "5500GT",
+    "turbo": "4.4 GHz",
+    "cores": "6",
+    "threads": "12",
+    "numero": "5"
+  },
+
+  "Ryzen 5 5600X": {
+    "serie": "Ryzen 5",
+    "modelo": "5600X",
+    "turbo": "4.6 GHz",
+    "cores": "6",
+    "threads": "12",
+    "numero": "5"
+  },
+
+  "Ryzen 5 7600": {
+    "serie": "Ryzen 5",
+    "modelo": "7600",
+    "turbo": "5.1 GHz",
+    "cores": "6",
+    "threads": "12",
+    "numero": "5"
+  },
+
+  "Ryzen 7 5700G": {
+    "serie": "Ryzen 7",
+    "modelo": "5700G",
+    "turbo": "4.6 GHz",
+    "cores": "8",
+    "threads": "16",
+    "numero": "7"
+  },
+
+  "Ryzen 7 5700X": {
+    "serie": "Ryzen 7",
+    "modelo": "5700X",
+    "turbo": "4.6 GHz",
+    "cores": "8",
+    "threads": "16",
+    "numero": "7"
+  },
+
+  "Ryzen 7 7800X3D": {
+    "serie": "Ryzen 7",
+    "modelo": "7800X3D",
+    "turbo": "5.0 GHz",
+    "cores": "8",
+    "threads": "16",
+    "numero": "7"
+  },
+
+  "Ryzen 9 5900X": {
+    "serie": "Ryzen 9",
+    "modelo": "5900X",
+    "turbo": "4.8 GHz",
+    "cores": "12",
+    "threads": "24",
+    "numero": "9"
+  },
+
+  "Ryzen 9 7950X": {
+    "serie": "Ryzen 9",
+    "modelo": "7950X",
+    "turbo": "5.7 GHz",
+    "cores": "16",
+    "threads": "32",
+    "numero": "9"
+  }
+}
