@@ -1,11 +1,44 @@
 body{
-    background:#111;
     margin:0;
-    padding:20px;
+    background:#111;
+    font-family:'Oswald',sans-serif;
+}
 
+.container{
     display:flex;
-    justify-content:center;
-    align-items:flex-start;
+    gap:30px;
+    padding:20px;
+}
+
+.panel{
+    width:300px;
+    background:#222;
+    padding:20px;
+    border-radius:10px;
+}
+
+.panel h1{
+    color:white;
+    margin-top:0;
+}
+
+.panel label{
+    color:white;
+    display:block;
+    margin-top:10px;
+}
+
+.panel input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+.panel button{
+    margin-top:20px;
+    width:100%;
+    padding:12px;
+    cursor:pointer;
 }
 
 #canvas-area{
@@ -18,514 +51,110 @@ body{
     display:block;
 }
 
-/* ========================= */
-/* LOGO */
-/* ========================= */
-
 #logoArea{
     position:absolute;
-    top:40px;
+    top:35px;
     right:60px;
-
     text-align:right;
 }
 
 #logoNombre{
-    font-family:'Oswald',sans-serif;
+    color:white;
     font-size:58px;
     font-weight:700;
-
-    color:#ffffff;
-
-    text-shadow:2px 2px 4px rgba(0,0,0,.5);
 }
 
 #logoSlogan{
-    font-family:'Oswald',sans-serif;
+    color:white;
     font-size:24px;
-    font-weight:400;
-
-    color:#ffffff;
 }
-
-/* ========================= */
-/* RYZEN */
-/* ========================= */
 
 #serieTxt{
     position:absolute;
-
     top:75px;
     left:95px;
 
-    font-family:'Oswald',sans-serif;
+    color:#ff6600;
     font-size:110px;
     font-weight:700;
-
-    color:#ff6600;
-
-    line-height:1;
 }
-
-/* ========================= */
-/* MODELO */
-/* ========================= */
 
 #modeloTxt{
     position:absolute;
-
     top:185px;
     left:95px;
 
-    font-family:'Oswald',sans-serif;
+    color:black;
     font-size:95px;
     font-weight:700;
-
-    color:#000;
-
-    line-height:1;
 }
-
-/* ========================= */
-/* TURBO */
-/* ========================= */
 
 #turboTxt{
     position:absolute;
-
     top:380px;
     left:95px;
 
-    font-family:'Oswald',sans-serif;
+    color:white;
     font-size:92px;
     font-weight:700;
-
-    color:#ffffff;
-
-    line-height:1;
 }
 
 #turboLabel{
     position:absolute;
-
     top:485px;
     left:100px;
 
-    font-family:'Oswald',sans-serif;
+    color:black;
     font-size:55px;
     font-weight:700;
-
-    color:#000;
 }
-
-/* ========================= */
-/* CORES */
-/* ========================= */
 
 #coresNum{
     position:absolute;
-
     top:635px;
     left:95px;
 
-    font-family:'Oswald',sans-serif;
+    color:white;
     font-size:85px;
     font-weight:700;
-
-    color:#ffffff;
 }
 
 #coresLabel{
     position:absolute;
-
     top:725px;
     left:100px;
 
-    font-family:'Oswald',sans-serif;
+    color:black;
     font-size:52px;
     font-weight:700;
-
-    color:#000;
 }
-
-/* ========================= */
-/* THREADS */
-/* ========================= */
 
 #threadsNum{
     position:absolute;
-
     top:810px;
     left:95px;
 
-    font-family:'Oswald',sans-serif;
+    color:white;
     font-size:85px;
     font-weight:700;
-
-    color:#ffffff;
 }
 
 #threadsLabel{
     position:absolute;
-
     top:900px;
     left:100px;
 
-    font-family:'Oswald',sans-serif;
+    color:black;
     font-size:52px;
     font-weight:700;
-
-    color:#000;
 }
-
-/* ========================= */
-/* NUMERO RYZEN */
-/* ========================= */
 
 #numeroTxt{
     position:absolute;
-
     bottom:65px;
     right:225px;
 
-    font-family:'Oswald',sans-serif;
+    color:white;
     font-size:125px;
     font-weight:700;
-
-    color:#ffffff;
-}body{
-    background:#111;
-    margin:0;
-    padding:20px;
-
-    display:flex;
-    justify-content:center;
-}
-
-#canvas-area{
-    position:relative;
-    width:1200px;
-}
-
-#base{
-    width:100%;
-    display:block;
-}
-
-/* RYZEN */
-
-#serieTxt{
-    position:absolute;
-
-    top:70px;
-    left:95px;
-
-    font-family:'Oswald',sans-serif;
-    font-size:110px;
-    font-weight:700;
-
-    color:#ff6600;
-}
-
-/* MODELO */
-
-#modeloTxt{
-    position:absolute;
-
-    top:190px;
-    left:95px;
-
-    font-family:'Oswald',sans-serif;
-    font-size:95px;
-    font-weight:700;
-
-    color:#000;
-}
-
-/* TURBO */
-
-#turboTxt{
-    position:absolute;
-
-    top:385px;
-    left:95px;
-
-    font-family:'Oswald',sans-serif;
-    font-size:92px;
-    font-weight:700;
-
-    color:#fff;
-}
-
-#turboLabel{
-    position:absolute;
-
-    top:500px;
-    left:100px;
-
-    font-family:'Oswald',sans-serif;
-    font-size:58px;
-    font-weight:700;
-
-    color:#000;
-}
-
-/* CORES */
-
-#coresNum{
-    position:absolute;
-
-    top:650px;
-    left:95px;
-
-    font-family:'Oswald',sans-serif;
-    font-size:85px;
-    font-weight:700;
-
-    color:#fff;
-}
-
-#coresLabel{
-    position:absolute;
-
-    top:740px;
-    left:100px;
-
-    font-family:'Oswald',sans-serif;
-    font-size:55px;
-    font-weight:700;
-
-    color:#000;
-}
-
-/* THREADS */
-
-#threadsNum{
-    position:absolute;
-
-    top:820px;
-    left:95px;
-
-    font-family:'Oswald',sans-serif;
-    font-size:85px;
-    font-weight:700;
-
-    color:#fff;
-}
-
-#threadsLabel{
-    position:absolute;
-
-    top:910px;
-    left:100px;
-
-    font-family:'Oswald',sans-serif;
-    font-size:55px;
-    font-weight:700;
-
-    color:#000;
-}
-
-/* NUMERO CAJA */
-
-#numeroTxt{
-    position:absolute;
-
-    bottom:70px;
-    right:235px;
-
-    font-family:'Oswald',sans-serif;
-    font-size:125px;
-    font-weight:700;
-
-    color:#fff;
-}body{
-    background:#111;
-    margin:0;
-    padding:20px;
-
-    display:flex;
-    justify-content:center;
-}
-
-#canvas-area{
-    position:relative;
-    width:1200px;
-}
-
-#base{
-    width:100%;
-    display:block;
-
-    image-rendering:auto;
-}
-
-/* RYZEN 5 */
-#serieTxt{
-    position:absolute;
-
-    top:35px;
-    left:90px;
-
-    font-family:'Oswald', sans-serif;
-    font-size:68px;
-    font-weight:700;
-    line-height:1;
-
-    color:#ff6600;
-}
-
-/* 5600X */
-#modeloTxt{
-    position:absolute;
-
-    top:110px;
-    left:90px;
-
-    font-family:'Oswald', sans-serif;
-    font-size:82px;
-    font-weight:700;
-    line-height:1;
-
-    color:#000;
-}
-
-/* 4.6 GHz */
-#turboTxt{
-    position:absolute;
-
-    top:295px;
-    left:105px;
-
-    font-family:'Oswald', sans-serif;
-    font-size:78px;
-    font-weight:700;
-    line-height:1;
-
-    color:#fff;
-}
-
-/* 6 CORES */
-#coresTxt{
-    position:absolute;
-
-    top:520px;
-    left:105px;
-
-    font-family:'Oswald', sans-serif;
-    font-size:78px;
-    font-weight:700;
-    line-height:1;
-
-    color:#fff;
-}
-
-/* 12 THREADS */
-#threadsTxt{
-    position:absolute;
-
-    top:615px;
-    left:105px;
-
-    font-family:'Oswald', sans-serif;
-    font-size:62px;
-    font-weight:700;
-    line-height:1;
-
-    color:#000;
-}
-
-/* NUMERO DE RYZEN */
-#numeroTxt{
-    position:absolute;
-
-    bottom:45px;
-    right:250px;
-
-    font-family:'Oswald', sans-serif;
-    font-size:110px;
-    font-weight:700;
-    line-height:1;
-
-    color:#fff;
-}body{
-    background:#111;
-    margin:0;
-    padding:20px;
-}
-
-#canvas-area{
-    position:relative;
-    width:1200px;
-}
-
-#base{
-    width:100%;
-    display:block;
-}
-
-/* Ryzen */
-#serieTxt{
-    position:absolute;
-    top:70px;
-    left:60px;
-
-    font-size:48px;
-    font-weight:bold;
-    color:#ff6600;
-}
-
-/* Modelo */
-#modeloTxt{
-    position:absolute;
-    top:125px;
-    left:60px;
-
-    font-size:60px;
-    font-weight:bold;
-    color:#111;
-}
-
-/* Turbo */
-#turboTxt{
-    position:absolute;
-    top:280px;
-    left:70px;
-
-    font-size:52px;
-    font-weight:bold;
-    color:white;
-}
-
-/* Cores */
-#coresTxt{
-    position:absolute;
-    top:500px;
-    left:70px;
-
-    font-size:52px;
-    font-weight:bold;
-    color:white;
-}
-
-/* Threads */
-#threadsTxt{
-    position:absolute;
-    top:560px;
-    left:70px;
-
-    font-size:42px;
-    font-weight:bold;
-    color:#111;
-}
-
-/* Numero Ryzen */
-#numeroTxt{
-    position:absolute;
-    bottom:80px;
-    right:260px;
-
-    font-size:90px;
-    font-weight:bold;
-    color:white;
 }
