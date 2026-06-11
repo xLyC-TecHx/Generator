@@ -5,6 +5,201 @@ body{
 
     display:flex;
     justify-content:center;
+    align-items:flex-start;
+}
+
+#canvas-area{
+    position:relative;
+    width:1200px;
+}
+
+#base{
+    width:100%;
+    display:block;
+}
+
+/* ========================= */
+/* LOGO */
+/* ========================= */
+
+#logoArea{
+    position:absolute;
+    top:40px;
+    right:60px;
+
+    text-align:right;
+}
+
+#logoNombre{
+    font-family:'Oswald',sans-serif;
+    font-size:58px;
+    font-weight:700;
+
+    color:#ffffff;
+
+    text-shadow:2px 2px 4px rgba(0,0,0,.5);
+}
+
+#logoSlogan{
+    font-family:'Oswald',sans-serif;
+    font-size:24px;
+    font-weight:400;
+
+    color:#ffffff;
+}
+
+/* ========================= */
+/* RYZEN */
+/* ========================= */
+
+#serieTxt{
+    position:absolute;
+
+    top:75px;
+    left:95px;
+
+    font-family:'Oswald',sans-serif;
+    font-size:110px;
+    font-weight:700;
+
+    color:#ff6600;
+
+    line-height:1;
+}
+
+/* ========================= */
+/* MODELO */
+/* ========================= */
+
+#modeloTxt{
+    position:absolute;
+
+    top:185px;
+    left:95px;
+
+    font-family:'Oswald',sans-serif;
+    font-size:95px;
+    font-weight:700;
+
+    color:#000;
+
+    line-height:1;
+}
+
+/* ========================= */
+/* TURBO */
+/* ========================= */
+
+#turboTxt{
+    position:absolute;
+
+    top:380px;
+    left:95px;
+
+    font-family:'Oswald',sans-serif;
+    font-size:92px;
+    font-weight:700;
+
+    color:#ffffff;
+
+    line-height:1;
+}
+
+#turboLabel{
+    position:absolute;
+
+    top:485px;
+    left:100px;
+
+    font-family:'Oswald',sans-serif;
+    font-size:55px;
+    font-weight:700;
+
+    color:#000;
+}
+
+/* ========================= */
+/* CORES */
+/* ========================= */
+
+#coresNum{
+    position:absolute;
+
+    top:635px;
+    left:95px;
+
+    font-family:'Oswald',sans-serif;
+    font-size:85px;
+    font-weight:700;
+
+    color:#ffffff;
+}
+
+#coresLabel{
+    position:absolute;
+
+    top:725px;
+    left:100px;
+
+    font-family:'Oswald',sans-serif;
+    font-size:52px;
+    font-weight:700;
+
+    color:#000;
+}
+
+/* ========================= */
+/* THREADS */
+/* ========================= */
+
+#threadsNum{
+    position:absolute;
+
+    top:810px;
+    left:95px;
+
+    font-family:'Oswald',sans-serif;
+    font-size:85px;
+    font-weight:700;
+
+    color:#ffffff;
+}
+
+#threadsLabel{
+    position:absolute;
+
+    top:900px;
+    left:100px;
+
+    font-family:'Oswald',sans-serif;
+    font-size:52px;
+    font-weight:700;
+
+    color:#000;
+}
+
+/* ========================= */
+/* NUMERO RYZEN */
+/* ========================= */
+
+#numeroTxt{
+    position:absolute;
+
+    bottom:65px;
+    right:225px;
+
+    font-family:'Oswald',sans-serif;
+    font-size:125px;
+    font-weight:700;
+
+    color:#ffffff;
+}body{
+    background:#111;
+    margin:0;
+    padding:20px;
+
+    display:flex;
+    justify-content:center;
 }
 
 #canvas-area{
