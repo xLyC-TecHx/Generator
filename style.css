@@ -2,6 +2,115 @@ body{
     background:#111;
     margin:0;
     padding:20px;
+
+    display:flex;
+    justify-content:center;
+}
+
+#canvas-area{
+    position:relative;
+    width:1200px;
+}
+
+#base{
+    width:100%;
+    display:block;
+
+    image-rendering:auto;
+}
+
+/* RYZEN 5 */
+#serieTxt{
+    position:absolute;
+
+    top:35px;
+    left:90px;
+
+    font-family:'Oswald', sans-serif;
+    font-size:68px;
+    font-weight:700;
+    line-height:1;
+
+    color:#ff6600;
+}
+
+/* 5600X */
+#modeloTxt{
+    position:absolute;
+
+    top:110px;
+    left:90px;
+
+    font-family:'Oswald', sans-serif;
+    font-size:82px;
+    font-weight:700;
+    line-height:1;
+
+    color:#000;
+}
+
+/* 4.6 GHz */
+#turboTxt{
+    position:absolute;
+
+    top:295px;
+    left:105px;
+
+    font-family:'Oswald', sans-serif;
+    font-size:78px;
+    font-weight:700;
+    line-height:1;
+
+    color:#fff;
+}
+
+/* 6 CORES */
+#coresTxt{
+    position:absolute;
+
+    top:520px;
+    left:105px;
+
+    font-family:'Oswald', sans-serif;
+    font-size:78px;
+    font-weight:700;
+    line-height:1;
+
+    color:#fff;
+}
+
+/* 12 THREADS */
+#threadsTxt{
+    position:absolute;
+
+    top:615px;
+    left:105px;
+
+    font-family:'Oswald', sans-serif;
+    font-size:62px;
+    font-weight:700;
+    line-height:1;
+
+    color:#000;
+}
+
+/* NUMERO DE RYZEN */
+#numeroTxt{
+    position:absolute;
+
+    bottom:45px;
+    right:250px;
+
+    font-family:'Oswald', sans-serif;
+    font-size:110px;
+    font-weight:700;
+    line-height:1;
+
+    color:#fff;
+}body{
+    background:#111;
+    margin:0;
+    padding:20px;
 }
 
 #canvas-area{
