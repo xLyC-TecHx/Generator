@@ -1,52 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LyC.TecH Generator</title>
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>LyC.TecH Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="panel">
+    <div id="canvas-area">
 
-<h2>Generador LyC.TecH</h2>
+        <!-- FONDO -->
+        <img id="base" src="plantilla.png" alt="Plantilla">
 
-<input id="serie" placeholder="Ryzen 5">
-<input id="modelo" placeholder="5600X">
-<input id="turbo" placeholder="4.6 GHz">
-<input id="cores" placeholder="6 CORES">
-<input id="threads" placeholder="12 THREADS">
-<input id="numero" placeholder="5">
+        <!-- TEXTOS -->
+        <div id="serieTxt">Ryzen 5</div>
+        <div id="modeloTxt">5600X</div>
 
-<button onclick="generar()">Actualizar</button>
-<button onclick="descargar()">Descargar PNG</button>
+        <div id="turboTxt">4.6 GHz</div>
 
-</div>
+        <div id="coresTxt">6 CORES</div>
+        <div id="threadsTxt">12 THREADS</div>
 
-<div class="preview">
+        <div id="numeroTxt">5</div>
 
-<div id="canvas-area">
-
-<img src="plantilla.png" id="base">
-
-<div id="serieTxt">Ryzen 5</div>
-<div id="modeloTxt">5600X</div>
-
-<div id="turboTxt">4.6 GHz</div>
-
-<div id="coresTxt">6 CORES</div>
-<div id="threadsTxt">12 THREADS</div>
-
-<div id="numeroTxt">5</div>
-
-</div>
-
-</div>
-
-<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-<script src="script.js"></script>
+    </div>
 
 </body>
 </html>
