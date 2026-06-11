@@ -8,61 +8,38 @@
     <title>LyC.TecH Ryzen Generator</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div id="canvas-area">
+<div class="container">
 
-        <img id="base" src="plantilla.png" alt="Plantilla Ryzen">
+    <div class="panel">
 
-        <!-- MODELO -->
-        <div id="serieTxt">Ryzen 3</div>
-        <div id="modeloTxt">3100</div>
+        <h1>LyC.TecH</h1>
 
-        <!-- TURBO -->
-        <div id="turboTxt">3.9 GHz</div>
-        <div id="turboLabel">TURBO</div>
+        <label>Serie</label>
+        <input type="text" id="serieInput" value="Ryzen 3">
 
-        <!-- NUCLEOS -->
-        <div id="coresNum">4x</div>
-        <div id="coresLabel">NÚCLEOS</div>
+        <label>Modelo</label>
+        <input type="text" id="modeloInput" value="3100">
 
-        <!-- HILOS -->
-        <div id="threadsNum">8x</div>
-        <div id="threadsLabel">SUBNÚCLEOS</div>
+        <label>Turbo</label>
+        <input type="text" id="turboInput" value="3.9 GHz">
 
-        <!-- NUMERO RYZEN -->
-        <div id="numeroTxt">3</div>
+        <label>Núcleos</label>
+        <input type="text" id="coresInput" value="4x">
 
-        <!-- LOGO -->
-        <div id="logoArea">
-            <div id="logoNombre">LyC.TecH</div>
-            <div id="logoSlogan">Es Tu Lugar</div>
-        </div>
+        <label>Subhilos</label>
+        <input type="text" id="threadsInput" value="8x">
+
+        <label>Número Ryzen</label>
+        <input type="text" id="numeroInput" value="3">
+
+        <button onclick="actualizar()">Actualizar</button>
 
     </div>
-
-</body>
-
-</html><!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-
-    <title>LyC.TecH Generator</title>
-
-    <!-- FUENTE -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
 
     <div id="canvas-area">
 
@@ -82,21 +59,37 @@
 
         <div id="numeroTxt">3</div>
 
+        <div id="logoArea">
+            <div id="logoNombre">LyC.TecH</div>
+            <div id="logoSlogan">Es Tu Lugar</div>
+        </div>
+
     </div>
 
+</div>
+
+<script>
+function actualizar(){
+
+    document.getElementById('serieTxt').innerText =
+        document.getElementById('serieInput').value;
+
+    document.getElementById('modeloTxt').innerText =
+        document.getElementById('modeloInput').value;
+
+    document.getElementById('turboTxt').innerText =
+        document.getElementById('turboInput').value;
+
+    document.getElementById('coresNum').innerText =
+        document.getElementById('coresInput').value;
+
+    document.getElementById('threadsNum').innerText =
+        document.getElementById('threadsInput').value;
+
+    document.getElementById('numeroTxt').innerText =
+        document.getElementById('numeroInput').value;
+}
+</script>
+
 </body>
-</html><!-- TEXTOS -->
-
-<div id="serieTxt">Ryzen 3</div>
-<div id="modeloTxt">3100</div>
-
-<div id="turboTxt">3.9 GHz</div>
-<div id="turboLabel">TURBO</div>
-
-<div id="coresNum">4x</div>
-<div id="coresLabel">NÚCLEOS</div>
-
-<div id="threadsNum">8x</div>
-<div id="threadsLabel">SUBNÚCLEOS</div>
-
-<div id="numeroTxt">3</div>
+</html>
