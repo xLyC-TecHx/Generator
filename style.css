@@ -53,18 +53,18 @@ body{
 
 #serieTxt{
     position:absolute;
-    top:30px;
-    left:95px;
+    top:50px;
+    left:80px;
 
     color:#ff6600;
-    font-size:110px;
+    font-size:125px;
     font-weight:700;
 }
 
 #modeloTxt{
     position:absolute;
-    top:150px;
-    left:95px;
+    top:175px;
+    left:90px;
 
     color:black;
     font-size:95px;
@@ -73,11 +73,11 @@ body{
 
 #turboTxt{
     position:absolute;
-    top:395px;
-    left:95px;
+    top:385px;
+    left:90px;
 
     color:white;
-    font-size:92px;
+    font-size:90px;
     font-weight:700;
 }
 
@@ -87,46 +87,46 @@ body{
     left:100px;
 
     color:black;
-    font-size:55px;
+    font-size:100px;
     font-weight:700;
 }
 
 #coresNum{
     position:absolute;
-    top:650px;
-    left:95px;
+    top:660px;
+    left:90px;
 
     color:white;
-    font-size:85px;
+    font-size:70px;
     font-weight:700;
 }
 
 #coresLabel{
     position:absolute;
-    top:735px;
-    left:100px;
+    top:745px;
+    left:90px;
 
     color:black;
-    font-size:52px;
+    font-size:50px;
     font-weight:700;
 }
 
 #threadsNum{
     position:absolute;
     top:790px;
-    left:95px;
+    left:90px;
 
     color:white;
-    font-size:85px;
+    font-size:80px;
     font-weight:700;
 }
 
 #threadsLabel{
     position:absolute;
     top:875px;
-    left:100px;
+    left:90px;
 
     color:black;
-    font-size:52px;
+    font-size:50px;
     font-weight:700;
 }
