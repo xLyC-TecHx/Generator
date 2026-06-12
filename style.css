@@ -63,7 +63,7 @@ body{
 
 #modeloTxt{
     position:absolute;
-    top:155px;
+    top:210px;
     left:95px;
 
     color:black;
@@ -73,7 +73,7 @@ body{
 
 #turboTxt{
     position:absolute;
-    top:410px;
+    top:425px;
     left:95px;
 
     color:white;
@@ -83,7 +83,7 @@ body{
 
 #turboLabel{
     position:absolute;
-    top:520px;
+    top:545px;
     left:100px;
 
     color:black;
@@ -93,7 +93,7 @@ body{
 
 #coresNum{
     position:absolute;
-    top:620px;
+    top:645px;
     left:95px;
 
     color:white;
@@ -103,7 +103,7 @@ body{
 
 #coresLabel{
     position:absolute;
-    top:705px;
+    top:730px;
     left:100px;
 
     color:black;
@@ -113,7 +113,7 @@ body{
 
 #threadsNum{
     position:absolute;
-    top:720px;
+    top:745px;
     left:95px;
 
     color:white;
@@ -123,20 +123,10 @@ body{
 
 #threadsLabel{
     position:absolute;
-    top:855px;
+    top:90px;
     left:100px;
 
     color:black;
     font-size:52px;
-    font-weight:700;
-}
-
-#numeroTxt{
-    position:absolute;
-    bottom:195px;
-    right:225px;
-
-    color:white;
-    font-size:125px;
     font-weight:700;
 }
