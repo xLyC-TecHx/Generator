@@ -15,9 +15,6 @@ document.getElementById("cores").value;
 document.getElementById("threadsTxt").innerText =
 document.getElementById("threads").value;
 
-document.getElementById("numeroTxt").innerText =
-document.getElementById("numero").value;
-
 }
 
 function descargar(){
