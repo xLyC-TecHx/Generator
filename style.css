@@ -53,7 +53,7 @@ body{
 
 #serieTxt{
     position:absolute;
-    top:70px;
+    top:55px;
     left:95px;
 
     color:#ff6600;
@@ -63,7 +63,7 @@ body{
 
 #modeloTxt{
     position:absolute;
-    top:190px;
+    top:175px;
     left:95px;
 
     color:black;
