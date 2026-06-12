@@ -34,9 +34,6 @@
         <label>Subhilos</label>
         <input type="text" id="threadsInput" value="8x">
 
-        <label>Número Ryzen</label>
-        <input type="text" id="numeroInput" value="3">
-
         <button onclick="actualizar()">Actualizar</button>
 
     </div>
@@ -56,8 +53,6 @@
 
         <div id="threadsNum">8x</div>
         <div id="threadsLabel">SUBNÚCLEOS</div>
-
-        <div id="numeroTxt">3</div>
 
     </div>
 
@@ -80,9 +75,6 @@ function actualizar(){
 
     document.getElementById('threadsNum').innerText =
         document.getElementById('threadsInput').value;
-
-    document.getElementById('numeroTxt').innerText =
-        document.getElementById('numeroInput').value;
 }
 </script>
 
